@@ -1,0 +1,358 @@
+
+nav{
+    background: linear-gradient(#0003AA, #5B0369);
+    width: 100vw;
+    height: 80px;
+    top: 0;
+     }
+ /* CHange nvabar using js*/
+ 
+
+ .nav_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+ }
+ 
+
+  .nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+  }
+
+  .nav_menu a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .nav_menu a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 0.9rem;
+   transition: var(--transition)
+  }
+
+  .nav_menu a:hover {
+   color: var(--color-bg2);
+  }
+  .back{
+    background: linear-gradient(97.82deg, #0003AA 14.08%, #5B0369 134.44%);
+    width: 1920px;
+    height: 851px;
+    top: 2px;
+    gap: 0px;
+    border-radius: 50px 0px 0px 0px;
+    opacity: 0px;
+    }
+    .main{
+
+position: absolute;
+left: 61.77%;
+right: 14.27%;
+top: 15.7%;
+bottom: 76.67%;
+
+border-radius: 50px;
+
+
+    }
+    .headero{
+    position: absolute;
+    left: 13.44%;
+    right: 42.47%;
+    top: 8.49%;
+    bottom: 84.18%;
+    
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 105px;
+    /* or 131% */
+    
+    color: #FFFFFF;
+    }
+.headt{
+    /* With every client we serve, we bring forth a deep passion for creative problem-solving and digital innovations- that's what we deliver. We’ve Great minds at work for the best technologies to make digital easy and impactful. */
+
+position: absolute;
+left: 13.8%;
+right: 49.95%;
+top: 45.95%;
+bottom: 75.79%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+color: #FFFFFF;
+
+
+}
+.maint{
+position: absolute;
+width: 527px;
+height: 204px;
+left: 160px;
+top: 950px;
+
+font-family:'cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+/* or 68px */
+
+color: #060606;
+}
+.a2{
+position: absolute;
+left: 10.5%;
+right: 58.28%;
+top: 150%;
+bottom: 49.49%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 159% */
+
+color: #060606;
+}
+.a3{
+position: absolute;
+left: 48.04%;
+right: 24.48%;
+top: 135%;
+bottom: 65.12%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 665;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height, or 138% */
+
+color: #000000;
+}
+.a4{
+position: absolute;
+left: 48.04%;
+right: 11.2%;
+top: 141%;
+bottom: 62.26%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 38px;
+/* or 173% */
+
+color: #060606;
+
+opacity: 0.8;
+}
+.a5{
+    /* Target Audience */
+
+position: absolute;
+left: 48.04%;
+right: 34.48%;
+top: 155%;
+bottom: 59.75%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 665;
+font-size: 24px;
+line-height: 38px;
+/* identical to box height, or 138% */
+color: #000000;
+}
+.a6{
+    /* We dive deep to understand your audience, forging connections that transform visitors into loyal customers. */
+
+position: absolute;
+left: 48.04%;
+right: 12.6%;
+top: 160%;
+bottom: 56.89%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 38px;
+/* or 173% */
+
+color: #060606;
+
+opacity: 0.7;
+
+}
+.a7{
+    /* Right Digital Channels */
+
+position: absolute;
+left: 48.04%;
+right: 31.15%;
+top: 171%;
+bottom: 54.38%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 665;
+font-size: 22px;
+line-height: 38px;
+/* identical to box height, or 138% */
+
+color: #000000;
+
+
+}
+.a8{
+    /* We're like online detectives, discovering where your customers are, and then we craft posts and ads that perfectly fit. */
+
+position: absolute;
+left: 48.04%;
+right: 12.6%;
+top: 176%;
+bottom: 51.52%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 38px;
+/* or 173% */
+
+color: #060606;
+
+opacity: 0.7;
+
+}
+.a9{
+    /* Analytics and Reporting */
+
+position: absolute;
+left: 48.04%;
+right: 30.1%;
+top: 186%;
+bottom: 49.01%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 665;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height, or 138% */
+
+color: #000000;
+
+
+}
+.a10{
+    /* We use analytics for precise campaign monitoring, tracking website traffic, engagement, and conversions. */
+
+position: absolute;
+left: 48.04%;
+right: 12.6%;
+top: 192%;
+bottom: 46.15%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 38px;
+/* or 173% */
+
+color: #060606;
+
+opacity: 0.7;
+
+}
+.a11{
+    /* TELL US EVERY- THING */
+
+position: absolute;
+left: 10.6%;
+right: 67.86%;
+top: 190%;
+bottom: 35.57%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 80px;
+/* or 133% */
+
+color: #000000;
+
+
+}
+.a12{
+    /* Our Business Phiosophy */
+
+position: absolute;
+left: 10.6%;
+right: 70.4%;
+top: 220%;
+bottom: 32.79%;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 44px;
+/* identical to box height, or 157% */
+
+color: #000000;
+
+
+}
+.a13{
+    /* We strive to unlock collective wisdom and go beyond whats possible to grow together. */
+
+position: absolute;
+width: 479.44px;
+height: 98px;
+left: 165px;
+top: 1650.89px;
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* or 164% */
+
+color: #000000;
+
+
+}
+ .fm{
+
+    position: absolute;
+    width: 479.44px;
+    height: 154.06px;
+    left: 80px;
+    top: 2000px;
+    
+    
+    }
+    .fm{
+        left: 50%;
+        top: 1500px;
+    }
